@@ -1,2 +1,2 @@
-# Nanban-Star-Labs
+# Nanban-Starup-Labs
  Events for  college students
