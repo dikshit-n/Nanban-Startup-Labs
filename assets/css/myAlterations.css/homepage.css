@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.scrollHorizontal{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    align-items: stretch;
+    justify-content: stretch;
+    overflow-x: scroll;
+    margin-right: -15px;
+    margin-left: -15px;
+    user-select: none;
+    box-sizing: border-box;
+    min-height: 540px;
+    max-height: 540px;
+}
+
+.scrollHorizontal::-webkit-scrollbar{
+    display: none;
+}
+
+.cursor{
+    cursor: grab;
+}
+
+.cursor:active{
+    cursor: grabbing;
+}
+
+.inner{
+    position: relative;
+    min-width: 400px;
+    /* max-width: 400px; */
+    box-sizing: border-box;
+    min-height: 500px;
+    max-height: 500px;
+    /* transition: all 2s ease 0s;
+    transform: translate3d(-1000px, 0px, 0px); */
+}
+
+.inner .single-do{
+    
+    min-width: 400px;
+    max-width: 400px !important;
+    box-sizing: border-box;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+.have-project{
+    padding-top: 100px;
+}
+
+/* Nanban Startup Labs is for */
+.Usage{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.Usage .content{
+    /* box-shadow: 0 0 10px 0 black; */
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content div{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 black;
+    box-sizing: border-box;
+    margin: 20px;   
+}
+.content div p{
+    margin: 0;
+}
+/*  -----------  */
+
+/* Navigate the Offerings */
+
+.alignHorizontal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.small-circle{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+/* -------------------------- */
+
+/* Statistics */
+
+.fw-7{
+    font-size: 30px;
+}
+
+.section{
+    padding: 100px 0;
+}
+
+/* -------------- */
+
+#nanban-logo{
+    margin-top: 10px;
+}
+
+.logo-image{
+    width: 250px;
+    height: 40px;
+}
+
+.footer-logo-image{
+    width: 200px;
+    height: 50px;
+}
+
+@media(max-width: 500px){
+    .logo-image{
+        width: 200px;
+        height: 30px;
+    }
+    .footer-logo-image{
+        width: 150px;
+        height: 38px;
+    }
+    .Usage .content{
+        width: 100%;
+    }
+}
