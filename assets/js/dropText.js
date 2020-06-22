@@ -55,15 +55,21 @@ var listItem14 = document.getElementById("l14")
 var listContainer14 = document.getElementById("lc14")
 
 drop1.addEventListener("click", function(e) {
+    // var p1 = listItem1.innerText
+    // console.log(p1.length)
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem1.className = this.expand ? "large" : "small"
     listContainer1.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
 
 drop2.addEventListener("click", function(e) {
+    var p2 = this.offsetWidth
+    console.log(p2)
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem2.className = this.expand ? "large" : "small"
     listContainer2.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
@@ -71,6 +77,7 @@ drop2.addEventListener("click", function(e) {
 drop3.addEventListener("click", function(e) {
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem3.className = this.expand ? "large" : "small"
     listContainer3.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
@@ -78,6 +85,7 @@ drop3.addEventListener("click", function(e) {
 drop4.addEventListener("click", function(e) {
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem4.className = this.expand ? "large" : "small"
     listContainer4.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
@@ -85,6 +93,7 @@ drop4.addEventListener("click", function(e) {
 drop5.addEventListener("click", function(e) {
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem5.className = this.expand ? "large" : "small"
     listContainer5.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
@@ -92,6 +101,7 @@ drop5.addEventListener("click", function(e) {
 drop6.addEventListener("click", function(e) {
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem6.className = this.expand ? "large" : "small"
     listContainer6.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
@@ -99,6 +109,7 @@ drop6.addEventListener("click", function(e) {
 drop7.addEventListener("click", function(e) {
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem7.className = this.expand ? "large" : "small"
     listContainer7.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
@@ -106,6 +117,7 @@ drop7.addEventListener("click", function(e) {
 drop8.addEventListener("click", function(e) {
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem8.className = this.expand ? "large" : "small"
     listContainer8.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
@@ -113,6 +125,7 @@ drop8.addEventListener("click", function(e) {
 drop9.addEventListener("click", function(e) {
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem9.className = this.expand ? "large" : "small"
     listContainer9.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
@@ -120,6 +133,7 @@ drop9.addEventListener("click", function(e) {
 drop10.addEventListener("click", function(e) {
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem10.className = this.expand ? "large" : "small"
     listContainer10.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
@@ -127,6 +141,7 @@ drop10.addEventListener("click", function(e) {
 drop11.addEventListener("click", function(e) {
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem11.className = this.expand ? "large" : "small"
     listContainer11.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
@@ -134,6 +149,7 @@ drop11.addEventListener("click", function(e) {
 drop12.addEventListener("click", function(e) {
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem12.className = this.expand ? "large" : "small"
     listContainer12.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
@@ -141,6 +157,7 @@ drop12.addEventListener("click", function(e) {
 drop13.addEventListener("click", function(e) {
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem13.className = this.expand ? "large" : "small"
     listContainer13.className = this.expand ? "listItemLarge" : "listItemSmall"
 })
@@ -148,6 +165,7 @@ drop13.addEventListener("click", function(e) {
 drop14.addEventListener("click", function(e) {
     e.preventDefault()
     this.expand = !this.expand;
+    this.expand ? this.style = "opacity: 0.5" : this.style = "opacity: 1"
     listItem14.className = this.expand ? "large" : "small"
     listContainer14.className = this.expand ? "listItemLarge" : "listItemSmall"
 })

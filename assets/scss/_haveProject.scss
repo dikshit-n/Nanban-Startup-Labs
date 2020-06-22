@@ -1,16 +1,16 @@
 .haveAproject {
-	padding: 64px 69px 54px 78px;
+	padding: 64px 69px 50px 74px;
 	background-repeat: no-repeat;
 	border-radius: 10px;
     position: relative;
     @media #{$md}{
-        padding: 42px 69px 36px 57px;
+        padding: 42px 69px 32px 53px;
     }
     @media #{$sm}{
-        padding: 42px 19px 36px 40px
+        padding: 42px 19px 32px 36px
     }
     @media #{$xs}{
-        padding: 42px 19px 36px 40px
+        padding: 42px 19px 32px 36px
     }
     
     &::before{
