@@ -20,32 +20,30 @@ html{
     display: none;
 }
 
+.do-btn a{
+    color: #7b40c0 !important;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.do-btn i{
+    background: #7b40c0 !important;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    line-height: 24px;
+    color:#fff;
+    border-radius: 50%; 
+    margin-right: 7px;
+}
+
 .cursor{
     cursor: grab;
 }
 
 .cursor:active{
     cursor: grabbing;
-}
-
-.inner{
-    position: relative;
-    min-width: 400px;
-    /* max-width: 400px; */
-    box-sizing: border-box;
-    min-height: 500px;
-    max-height: 500px;
-    /* transition: all 2s ease 0s;
-    transform: translate3d(-1000px, 0px, 0px); */
-}
-
-.inner .single-do{
-    
-    min-width: 400px;
-    max-width: 400px !important;
-    box-sizing: border-box;
-    min-height: 500px;
-    max-height: 500px;
 }
 
 .have-project{
@@ -59,17 +57,67 @@ html{
     padding: 50px;
 }
 
-.Usage .content{
-    /* box-shadow: 0 0 10px 0 black; */
+
+/* .Usage .content{
     border-radius: 10px;
     width: 60%;
     margin: auto;
     text-align: left;
     padding: 20px;
     box-sizing: border-box;
+} */
+
+.Usage .content{
+    width: 70%;
+    min-width: 280px;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.content div{
+.listItemSmall{
+    text-align: center;
+    position: relative;
+    margin: 40px 0;
+    width: 100%;
+    max-height: 30px;
+}
+
+.listItemLarge{
+    text-align: center;
+    position: relative;
+    margin: 40px 0;
+    width: 100%;
+    max-height: fit-content;
+    border: none;
+}
+
+.drop{
+    position: absolute;
+    right: 1px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url('/assets//img/icons/dropdown.png');
+}
+.small{
+    transition: all 0.3s ease;
+    font-size: 16px;
+    margin: 0 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.large{
+    transition: all 0.3s ease;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+/* .content div{
     padding: 20px;
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -80,7 +128,7 @@ html{
 }
 .content div p{
     margin: 0;
-}
+} */
 /*  -----------  */
 
 /* Navigate the Offerings */
@@ -113,6 +161,11 @@ html{
     padding: 100px 0;
 }
 
+#border-right{
+    border-right: 1px groove grey;
+    margin-top: 5px;
+}
+
 /* -------------- */
 
 #nanban-logo{
@@ -130,6 +183,11 @@ html{
 }
 
 @media(max-width: 500px){
+    .scrollHorizontal{
+        min-height: 500px;
+        max-height: 500px;
+        align-items: center;
+    }
     .logo-image{
         width: 200px;
         height: 30px;
@@ -140,5 +198,56 @@ html{
     }
     .Usage .content{
         width: 100%;
+    }
+    #border-right{
+        border: none;
+    }
+    .inner h4{
+        font-size: 20px !important;
+    }
+    .inner p{
+        font-size: 15px !important;
+    }
+    .inner .single-do{
+        box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
+        width: 290px;
+        max-height: 445px;
+        min-height: 445px;
+        /* margin: 0 10px; */
+    }
+    .content{
+        width: 95%;
+    }
+    .inner{
+        width: 290px;
+        margin: 0 10px;
+        max-height: 450px;
+        min-height: 450px;
+    }
+    .Usage{
+        padding: 20px;
+    }
+    .Usage .content{
+        width: 90vw;
+        margin: auto;
+        padding: 0;
+    }
+}
+@media(min-width: 501px){
+    .inner{
+        position: relative;
+        min-width: 400px;
+        box-sizing: border-box;
+        min-height: 500px;
+        max-height: 500px;
+    }
+    
+    .inner .single-do{
+        box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
+        min-width: 400px;
+        max-width: 400px !important;
+        box-sizing: border-box;
+        min-height: 500px;
+        max-height: 500px;
     }
 }

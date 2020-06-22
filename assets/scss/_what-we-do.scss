@@ -97,6 +97,7 @@
 		}
     }
     .single-do{
+        box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
         @include transition(.3s);
         padding:56px 40px 69px;
         @media #{$lg}{
@@ -106,7 +107,7 @@
 			padding: 41px 17px 63px;
         }
         @media #{$sm}{
-			padding: 41px 17px 63px;
+			padding: 21px 10px 50px;
         } 
         @media #{$xs}{
 			padding: 41px 17px 63px;
@@ -124,29 +125,31 @@
         }
         .do-caption{
             h4{
-                font-size: 24px;
-                font-weight: 600;
+                font-size: 15px;
+                font-weight: 500;
                 margin-bottom: 23px;
                 @media #{$lg}{
-                   font-size: 21px;
+                   font-size: 15px;
                 }
             }
             p{
                 margin-bottom: 40px;
-                // padding: 0 40px;
+                padding: 0 40px;
                 @media #{$xs}{ }
             }
         }
         .do-btn{
             a{
-                color: #c5ccd8;
-                text-transform: uppercase;
-                font-size: 13px;
-                font-weight: 500;
+                // color: #7b40c0;
+                // // color: #c5ccd8;
+                // text-transform: uppercase;
+                // font-size: 13px;
+                // font-weight: 500;
                 @include transition(.3s);
                 
                 i{
-                    background: #c5ccd8;
+                    background: #7b40c0;
+                    // background: #c5ccd8;
                     width: 24px;
                     height: 24px;
                     display: inline-block;
