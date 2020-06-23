@@ -77,8 +77,8 @@ html{
 }
 
 .listItemSmall{
-    animation: fade 1s forwards;
-    transition: all 1s ease;
+    /* animation: fade 1s forwards;
+    transition: all 1s ease; */
     /* text-align: center; */
     position: relative;
     margin: 40px 0;
@@ -87,7 +87,6 @@ html{
 }
 
 .listItemLarge{
-    animation: fade 1s forwards;
     transition: all 1s ease;
     /* text-align: center; */
     position: relative;
@@ -99,21 +98,13 @@ html{
     border-radius: 20px;
 }
 
-@keyframes fade{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
 .drop{
+    display: none;
     position: absolute;
     right: 1px;
     top: 0;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     /* background-color: lavender; */
     background-image: url('/assets//img/icons/dropdown.png');
@@ -123,17 +114,19 @@ html{
     background-color: rgb(209, 209, 220);
 }
 .small{
-    transition: all 0.3s ease;
+    transition: all 1s ease;
     font-size: 16px;
-    margin: 0 15px;
+    /* margin: 0 15px; */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-align: left;
 }
 
 .large{
-    transition: all 0.3s ease;
+    transition: all 1s ease;
     font-size: 16px;
+    text-align: center;
     margin: 0 15px;
 }
 
