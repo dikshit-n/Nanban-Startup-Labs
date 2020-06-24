@@ -53,13 +53,11 @@ checkVisibility(listContainer9 ,listItem9, drop9)
 
 
 drop1.addEventListener("click", function(e) {
-    console.log("Hello")
     e.preventDefault()
     this.expand = !this.expand;
     this.expand ? this.style = "display: block; opacity: 0.5" : this.style = "display: block; opacity: 1"
     this.expand ? listItem1.className = "large" : listItem1.className = "small"
     listContainer1.className = this.expand ? "listItemLarge" : "listItemSmall"
-    console.log(listContainer1.className)
     listItem1.animate([
         // keyframes
         { opacity: '0' }, 

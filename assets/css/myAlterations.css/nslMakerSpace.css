@@ -1,0 +1,82 @@
+.Benefits{
+    width: 95%;
+    margin: 70px auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Benefits .College, 
+.Benefits .Students{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 480px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 70px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 black;
+    min-height: fit-content;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+.Benefits .College .content,
+.Benefits .Students .content{
+    width: 100%;
+    height: 100%;
+    margin: 40px 0;
+}
+
+/* @media(max-width: 800px){
+    .Benefits h1{
+        font-size: 19px;
+    }
+    .Benefits h3{
+        font-size: 16px;
+    }
+    .Benefits p{
+        font-size: 13px;
+    }
+} */
+
+@media(max-width: 990px){
+    .Benefits .College,
+    .Benefits .Students{
+        padding: 70px 50px;
+        padding-bottom: 50px;
+        margin-bottom: 0;
+    }
+    /* .Benefits h1{
+        font-size: 22px;
+    } */
+    .Benefits h3{
+        text-align: center;
+    }
+    /* .Benefits p{
+        font-size: 13px;
+    } */
+}
+
+@media(max-width: 479px){
+    .Benefits .College, 
+    .Benefits .Students{
+        min-width: 310px;
+        padding: 50px 30px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .Benefits h1{
+        font-size: 22px;
+    }
+    .Benefits h3{
+        font-size: 18px;
+    }
+    .Benefits p{
+        font-size: 13px;
+    }
+}
