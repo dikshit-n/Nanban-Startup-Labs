@@ -19,10 +19,16 @@ html{
 .scrollHorizontal::-webkit-scrollbar{
     display: none;
 }
-
+.do-btn{
+    position: absolute;
+    width: 90%;
+    bottom: 40px;
+    margin: auto;
+}
 .do-btn a{
     color: #7b40c0 !important;
     text-transform: uppercase;
+    margin: auto;
     font-size: 13px;
     font-weight: 500;
 }
@@ -126,7 +132,7 @@ html{
 .large{
     transition: all 1s ease;
     font-size: 16px;
-    text-align: center;
+    /* text-align: center; */
     margin: 0 15px;
 }
 
@@ -171,11 +177,12 @@ html{
 }
 .responsiveFontSize p{
     font-size: 13px;
+    text-align: left;
 }
 
 @media(min-width: 550px){
     .responsiveFontSize h3{ font-size: 26px;}
-    .responsiveFontSize p{ font-size: 17px; }
+    .responsiveFontSize p{ font-size: 17px;text-align: center; }
 }
 
 /* ------------------ */
@@ -210,12 +217,13 @@ html{
         border: none;
     }
     .inner h4{
-        font-size: 20px !important;
-    }
-    .inner p{
         font-size: 15px !important;
     }
+    .inner p{
+        font-size: 13px !important;
+    }
     .inner .single-do{
+        position: relative;
         box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
         width: 290px;
         max-height: 445px;
@@ -254,12 +262,19 @@ html{
     }
     
     .inner .single-do{
+        position: relative;
         box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
         min-width: 400px;
         max-width: 400px !important;
         box-sizing: border-box;
         min-height: 500px;
         max-height: 500px;
+    }
+    .inner h4{
+        font-size: 19px !important;
+    }
+    .inner p{
+        font-size: 13px !important;
     }
 }
 
