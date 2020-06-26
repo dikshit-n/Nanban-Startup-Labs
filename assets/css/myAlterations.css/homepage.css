@@ -115,8 +115,6 @@ html{
     height: 25px;
     border-radius: 50%;
     /* background-color: lavender; */
-    background-image: url('/assets//img/icons/dropdown.png');
-    background-position: center center;
 }
 .drop:hover{
     background-color: rgb(209, 209, 220);
@@ -266,7 +264,7 @@ html{
     }
     .drop{
         width: 20px;
-        height: 20px;
+        height: 20px;*/
     }
 }
 @media(min-width: 501px){
